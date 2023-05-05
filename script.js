@@ -1,3 +1,4 @@
+
 const questionEl = document.getElementById('question');
         const answerBtnsEl = document.getElementById('answer-buttons');
         const scoreEl = document.getElementById('score');
@@ -5,6 +6,7 @@ const questionEl = document.getElementById('question');
 
         let currentQuestion = 0;
         let score = 0;
+
 
         const questions = [
             {
