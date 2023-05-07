@@ -4,6 +4,7 @@ const questionEl = document.getElementById('question');
         const scoreEl = document.getElementById('score');
         const startBtn = document.getElementById('start-btn');
 
+        
         let currentQuestion = 0;
         let score = 0;
 
