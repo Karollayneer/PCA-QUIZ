@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav {
     background-color: #333;
     color: white;
@@ -33,5 +34,28 @@ nav {
     margin-top: 50px;
     text-align: center;
   }
+  header {
+    flex-shrink: 1;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    font-size: 16px;
+  
+  
+  }
+  
   
   
