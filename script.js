@@ -19,6 +19,7 @@ const questionEl = document.getElementById('question');
                     { text: 'Belo Horizonte', correct: false }
                 ]
             },
+            
             {
                 question: 'Quem descobriu o Brasil?',
                 answers: [
@@ -27,7 +28,28 @@ const questionEl = document.getElementById('question');
                     { text: 'Fernão de Magalhães', correct: false },
                     { text: 'Vasco da Gama', correct: false }
                 ]
+            },
+
+            {
+                question: 'Barriga-verde é um gentílico para qual estado brasileiro?',
+                answers: [
+                    { text: 'Acre', correct: false },
+                    { text: 'Maranhão', correct: false },
+                    { text: 'Paraná', correct: false },
+                    { text: 'Santa Catarina', correct: true }
+                ]
+            },
+
+            {
+                question: 'O que é paroxítona?',
+                answers: [
+                    { text: 'Uma substancia química', correct: false },
+                    { text: 'Tipo de arvore', correct: false },
+                    { text: 'palavra que possui 4 sílabas', correct: false },
+                    { text: 'Palavra cujo acento tônico encontra-se na sua penúltima sílaba', correct: true }
+                ]
             }
+
         ];
 
         function showQuestion() {
