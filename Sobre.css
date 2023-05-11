@@ -95,3 +95,11 @@ nav {
     font-size: 18px;
     margin: 0 20px 20px;
 }
+.icons{
+  display: block;
+  justify-content: space-around;
+  margin: 5%;
+  padding-right: 0.5%;
+  width: 25%;
+  height: 25%;
+}
