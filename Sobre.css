@@ -64,12 +64,16 @@ nav {
     overflow: hidden;
     border-radius:10px;
     font-size: 15px;
+    display: inline-block;
  
 }
 /* primeira section */
 .cards {
+  margin-top: 15px;
+  margin-left: 15px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
  /* Segunda section */
@@ -95,11 +99,10 @@ nav {
     font-size: 18px;
     margin: 0 20px 20px;
 }
-.icons{
-  display: block;
-  justify-content: space-around;
-  margin: 5%;
-  padding-right: 0.5%;
+.icons img{
+  display: inline-block;
+  padding-right: 15px;
+  margin: 6px;
   width: 25%;
   height: 25%;
 }
