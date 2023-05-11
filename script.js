@@ -13,9 +13,9 @@ const questionEl = document.getElementById('question');
             {
                 question: 'Qual é a capital do Brasil?',
                 answers: [
-                    { text: 'Rio de Janeiro', correct: false },
+                    { text: 'Brasília', correct: true  },
                     { text: 'São Paulo', correct: false },
-                    { text: 'Brasília', correct: true },
+                    { text: 'Rio de Janeiro', correct: false },
                     { text: 'Belo Horizonte', correct: false }
                 ]
             },
@@ -45,8 +45,8 @@ const questionEl = document.getElementById('question');
                 answers: [
                     { text: 'Uma substancia química', correct: false },
                     { text: 'Tipo de arvore', correct: false },
-                    { text: 'palavra que possui 4 sílabas', correct: false },
-                    { text: 'Palavra cujo acento tônico encontra-se na sua penúltima sílaba', correct: true }
+                    { text: 'Palavra cujo acento tônico encontra-se na sua penúltima sílaba', correct: true },
+                    { text: 'palavra que possui 4 sílabas', correct: false }
                 ]
             }
 
