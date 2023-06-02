@@ -46,6 +46,35 @@ button:hover {
     background-color: #006B8F;
 }
 
+#start-btn{
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#start-btn:hover {
+  background-color: #006B8F;
+}
+
+#restart-btn{
+  display: none;
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#restart-btn:hover {
+  background-color: #006B8F;
+}
+
 #score-container {
     text-align: center;
     margin-top: 50px;
@@ -107,4 +136,3 @@ footer {
 
 
 }
-
