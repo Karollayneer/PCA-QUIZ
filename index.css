@@ -1,100 +1,131 @@
 body {
-    background-color: #F7F7F7;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-color: #F7F7F7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 h1 {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 #question-container {
-    background-color: #FFF;
-    border: 5px solid #EEE;
-    border-radius: 10px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    width: 500px;
+  background-color: #FFF;
+  border: 5px solid #EEE;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
 }
 
 #answer-buttons {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 button {
-    background-color: #008CBA;
-    border: none;
-    border-radius: 5px;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 10px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
 }
 
 button:hover {
-    background-color: #006B8F;
+  background-color: #006B8F;
+}
+
+#start-btn{
+background-color: #008CBA;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+#start-btn:hover {
+background-color: #006B8F;
+}
+
+#restart-btn{
+display: none;
+background-color: #008CBA;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+#restart-btn:hover {
+background-color: #006B8F;
 }
 
 #score-container {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: -20px; /* Alterado para um valor negativo */
+  margin-bottom: -10px;
 }
 
 #score {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav {
-  background-color: #333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 19px;
-  
+background-color: #333;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 19px;
+
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 nav li {
-  margin-left: 20px;
+margin-left: 20px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
+color: white;
+text-decoration: none;
 }
 
 h1 {
-  margin-top: 50px;
-  text-align: center;
+margin-top: 50px;
+text-align: center;
 }
 header {
-  flex-shrink: 1;
+flex-shrink: 1;
 }
 
 main {
   flex-grow: 1;
+  flex-shrink: 0; /* Adicione esta linha */
+  flex-basis: auto; /* Adicione esta linha */
 }
 
 footer {
-  flex-shrink: 0;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -104,7 +135,4 @@ footer {
   text-align: center;
   padding: 2px;
   font-size: 16px;
-
-
 }
-
