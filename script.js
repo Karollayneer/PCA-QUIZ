@@ -139,3 +139,4 @@ function restartQuiz() {
 
 startBtn.addEventListener('click', showQuestion);
 restartBtn.addEventListener('click', restartQuiz);
+
