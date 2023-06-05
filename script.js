@@ -2,11 +2,13 @@
 const questionEl = document.getElementById('question');
 const answerBtnsEl = document.getElementById('answer-buttons');
 const scoreEl = document.getElementById('score');
+const erroEl = document.getElementById('erro');
 const startBtn = document.getElementById('start-btn');
 const restartBtn = document.getElementById('restart-btn');
 
 let currentQuestion = 0;
 let score = 0;
+let erro = 0;
 
 const questions = [
     {
@@ -68,7 +70,9 @@ const questions = [
 function resetQuiz() {
   currentQuestion = 0;
   score = 0;
+  erro = 0;
   scoreEl.innerText = '0';
+  erroEl.innerText = '0';
 }
 
 function showQuestion() {
@@ -103,7 +107,11 @@ function selectAnswer(e) {
   if (correct) {
     score++;
     scoreEl.innerText = score;
-  }
+  } else {
+        erro++;
+        erroEl.innerText = erro;
+
+    }
   currentQuestion++;
   setTimeout(showQuestion, 1000); // Adicionamos um atraso de 1 segundo para a próxima pergunta
 }
@@ -132,9 +140,11 @@ function showFinalScore() {
 function restartQuiz() {
   currentQuestion = 0;
   score = 0;
+  erro = 0;
   showQuestion();
   restartBtn.style.display = 'none';
   scoreEl.innerText = score;
+  erroEl.innerText = erro;
 }
 
 startBtn.addEventListener('click', showQuestion);
