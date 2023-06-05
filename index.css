@@ -86,6 +86,11 @@ background-color: #006B8F;
   font-weight: bold;
 }
 
+#erro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 nav {
 background-color: #333;
 color: white;
