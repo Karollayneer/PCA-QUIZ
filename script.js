@@ -20,6 +20,35 @@ const questions = [
     ],
   },
   {
+    question: "O que significa a sigla CSS?",
+    answers: [
+      { text: "Cascading Style Sheets", correct: true },
+      { text: "Creative Style Sheets", correct: false },
+      { text: "Computer Style Sheets", correct: false },
+      { text: "Colorful Style Sheets", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a forma correta de declarar uma variável em JavaScript?",
+    answers: [
+      { text: "var nomeDaVariavel;", correct: false },
+      { text: "const nomeDaVariavel;", correct: false },
+      { text: "let nomeDaVariavel;", correct: true },
+      { text: "variable nomeDaVariavel;", correct: false },
+    ],
+  },
+  {
+    question:
+      "Qual é o método utilizado para adicionar um elemento no início de um array em JavaScript?",
+    answers: [
+      { text: "push()", correct: false },
+      { text: "unshift()", correct: true },
+      { text: "pop()", correct: false },
+      { text: "shift()", correct: false },
+    ],
+  },
+
+  {
     question: "Qual é a capital do Brasil?",
     answers: [
       { text: "Brasília", correct: true },
@@ -28,6 +57,45 @@ const questions = [
       { text: "Belo Horizonte", correct: false },
     ],
   },
+  {
+    question:
+      "Qual é o método utilizado para adicionar um elemento no início de um array em JavaScript?",
+    answers: [
+      { text: "push()", correct: false },
+      { text: "unshift()", correct: true },
+      { text: "pop()", correct: false },
+      { text: "shift()", correct: false },
+    ],
+  },
+  {
+    question: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
+    answers: [
+      { text: "32", correct: true },
+      { text: "5", correct: false },
+      { text: "7", correct: false },
+      { text: "52", correct: false },
+    ],
+  },
+  {
+    question: "Qual é o método utilizado para remover o último elemento de um array em JavaScript?",
+    answers: [
+      { text: "pop()", correct: true },
+      { text: "shift()", correct: false },
+      { text: "push()", correct: false },
+      { text: "unshift()", correct: false },
+    ],
+  },
+
+  {
+    question: "Qual é o operador lógico utilizado para negação em JavaScript?",
+    answers: [
+      { text: "&&", correct: false },
+      { text: "||", correct: false },
+      { text: "!", correct: true },
+      { text: "^", correct: false },
+    ],
+  },
+
   {
     question: "Quem descobriu o Brasil?",
     answers: [
@@ -70,10 +138,7 @@ const questions = [
     answers: [
       { text: "Uma substância química", correct: false },
       { text: "Tipo de árvore", correct: false },
-      {
-        text: "Palavra cujo acento tônico encontra-se na sua penúltima sílaba",
-        correct: true,
-      },
+      { text: "Palavra cujo acento tônico encontra-se na sua penúltima sílaba", correct: true,},
       { text: "Palavra que possui 4 sílabas", correct: false },
     ],
   },
